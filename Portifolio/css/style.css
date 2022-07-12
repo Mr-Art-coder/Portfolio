@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.986);
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+    border: outset rgba(0, 0, 0, 0.726) 5px;
+    padding: 10px;
+    
+    
+}
+#link-control{
+   
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+hr{
+    display: none;
+    border: solid rgba(0, 0, 0, 0.568)  1px;
+}
+
+#button-holder{
+    border-color: white;
+    color: white;
+}
+#button-holder:hover{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+.nav-item{
+    padding-left: 40px;
+    
+}
+#link-control a{
+    color: rgba(255, 255, 255, 0.966);
+}
+#link-control a:hover, a:active{
+    color:rgba(0, 0, 0, 0.363);
+}
+
+
+.navbar-dark .navbar-toggler{
+    border: outset rgba(255, 255, 255, 0.966) 2px;
+}
+
+/*********** BODY/////////////////////////////////////*/
+#datetime, #clock{
+    font: bold italic 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+ #clock{
+    margin-left: 20px;
+ }
+#demo{
+    font: bold;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+
+}
+.body-author{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 100px 0 30px 0;
+    
+    
+}
+.body-image{
+    background: url('../images/home.png') no-repeat;
+   width: 100%;
+  background-size: 100%;
+   
+   
+}
+
+.body-text{
+    line-height: 2em;
+    text-align: justify;
+}
+
+.readmore a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+.readmore a:hover{
+    color: black;
+    background-color: white;
+}
+.body-text span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+.grid-stle{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 200px 200px 200px 200px;
+    border: solid red 2px;
+    width: 100%;
+    
+}
+.item{
+    padding: 20px;
+    border: solid red 2px;
+}
+
+.firsthead{
+    text-align: center;
+    border: outset rgba(255, 255, 255, 0.986) 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+}
+.sorting{
+    margin: 20px 1rem 0 1rem;
+}
+
+
+.top-notch{
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 3em;
+}
+
+h2{
+    margin: 20px auto 0 auto;
+}
+
+.aboutpage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    
+}
+
+.about2{
+    text-align: justify;
+}
+.about2::first-letter{
+    font-size: 2em;
+}
+#aboutslide{
+    width: 100%;
+    margin: 0;
+}
+.portfolio-caro, .portiflio-caroweb, .portfolio-carobib{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px 0 0 0;
+}
+
+.portifolio-caro2, .portifolio-caro4, .portfolio-caro6{
+    text-align: justify;
+}
+
+
+
+/** Extra LARGE device only **/
+@media (min-width: 1200px ){
+    #link-control{
+   
+        position: absolute;
+        right: 1rem;
+        
+    }
+    
+    }
+ 
+    
+    /** Large device device only **/
+    @media (min-width: 992px) and (max-width: 1199px){
+    
+        #link-control{
+   
+            position: absolute;
+            right: 1rem;
+            
+        }
+        .firsthead, #demo{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        #datetime{
+            font-size: 15px;
+        }
+      
+    
+    }
+    
+    /** Medium  device only **/
+    
+    @media (min-width: 768px ) and (max-width: 991px){
+    
+        #link-control{
+            text-align: center;
+        }
+        
+        hr{
+            display: block;
+        }
+        .firsthead, #demo{
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        #datetime{
+            font-size: 15px;
+        }
+    
+    }
+    
+    
+    /** SMALL DEVICE ONLY **/
+    @media (max-width: 767px) {
+        #link-control{
+            text-align: center;
+            font-size: 20px;
+        }
+        hr{
+            display: block;
+        }
+       
+        .body-image{
+                   height: 410px;
+        }
+        .body-text{
+            margin-top: 0;
+        }
+        .body-author, .aboutpage, .portfolio-caro, .portiflio-caroweb, .portfolio-carobib{
+            grid-template-columns: 100%;
+            
+        }
+        
+        .portifolio-caro2, .portifolio-caro4, .portfolio-caro6{
+           margin-top: 30px;
+           
+
+        }
+    }
+    /*EXEMPTION//////////////////////////////////////*/
+    @media(max-width: 621px){
+
+.firsthead, #demo{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        #datetime{
+            font-size: 20px;
+        }
+       
+    }
+    /** EXTRA SMALL DEVICES ***********/
+    @media (max-width: 500px){
+        #link-control{
+            text-align: center;
+           
+        }
+        .body-author{
+            grid-template-rows: 400px 100%;             
+        }
+        
+    
+    }
+    
+    /** SMALL IPHONES**********************/
+    @media (max-width: 459px){
+  
+        #link-control{
+            text-align: center;
+        }
+        .body-text{
+            margin-top: -150px;
+            
+         }
+    
+        
+    }
+    
+    /** SMALL IPHONES**********************/
+    @media (max-width: 316px){
+        #link-control{
+            text-align: center;
+        }
+   
+
+    }
