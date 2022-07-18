@@ -13,6 +13,7 @@ function newday() {
     var showcase = document.getElementById("demo");
     showcase.innerHTML = days[thenewday];
 }
+newday();
 
 
 function bringdate() {
@@ -60,3 +61,6 @@ function currentTime() {
   
   currentTime();
 
+  
+
+ 
