@@ -438,7 +438,13 @@ footer ul{
             text-align: center;
            
         }
-      
+        .dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p{
+            width: 80%;
+            font-size: 12px;
+         }
+         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5{
+            height: 300px;
+        }
     
     }
     
@@ -448,8 +454,17 @@ footer ul{
         #link-control{
             text-align: center;
         }
+        .firsthead, #demo{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        #datetime{
+            font-size: 15px;
+        }
+        .copyright{
+            font-size: 12px;
+         }
        
-    
         
     }
     
