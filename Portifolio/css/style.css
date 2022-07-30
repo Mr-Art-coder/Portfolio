@@ -5,6 +5,7 @@
 body{
     background-color: rgb(0, 0, 0);
     color: rgba(255, 255, 255, 0.986);
+   
 }
 
 
@@ -65,6 +66,10 @@ hr{
     margin-top: 10px;
     font-size: 20px;
 }
+h1{
+    margin-top: 3em;
+    text-align: center;
+}
 
  #clock{
     margin-left: 20px;
@@ -82,10 +87,9 @@ hr{
     
     
 }
-.body-image{
-    background: url('../images/home.png') no-repeat;
-   width: 100%;
-  background-size: 100%;
+.body-image img{
+    width: 100%;
+   
    
    
 }
@@ -145,6 +149,7 @@ hr{
 
 h2{
     margin: 20px auto 0 auto;
+    text-align: center;
 }
 
 .aboutpage{
@@ -176,11 +181,158 @@ h2{
 
 .flex-container{
     display: flex;
-    background-color: white;
     width: 100%;
-}
-.flex-item{
+    justify-content: center;
+    margin-bottom: 20px;
     
+    
+}
+.flex1 img, .flex2 img, .flex3 img{
+width: 60px;
+padding-left: 20px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 60px;
+    justify-content: space-around;
+   
+   
+}
+.grid-item img{
+    width: 100%;
+    height: 70%;
+ 
+   
+}
+
+.grid-container p{
+    text-align: center;
+   font-size: 2em;
+  padding: 10px;
+  
+}
+.buttonclick{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+ 
+}
+.buttonclick button{   
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    
+}
+
+.grid-container a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.842);
+    font-weight: bolder;
+}
+.grid-item{
+    
+    margin:0 0 0 10px;
+}
+
+footer{
+        text-align: center;
+    color: rgba(255, 255, 255, 0.986);
+    /**height: 235px;**/
+    border: solid rgba(0, 0, 0, 0.363) 2px;
+    
+}
+footer li{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+    
+}
+footer ul{
+    padding-top: 40px;
+}
+.note2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.986);
+    
+}
+.note2 a:hover{
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.namefull, .copyright{
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.mapping{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.grid-container div{
+    margin-top: 20px;
+ 
+}
+.grid-container span{
+   margin-top: 20px;
+   padding: 20px;
+   text-align: justify;
+}
+.dashboard1{
+    background: url("../images/Dashboard.JPG") no-repeat;
+}
+.dashboard1:hover{
+    background: url("../images/Operator.JPG") no-repeat;
+    background-size: 100% 100%;
+}
+.dashboard2{
+    background: url("../images/coviddashboard.JPG") no-repeat;
+}
+.dashboard3{
+    background: url("../images/kaggledash.JPG") no-repeat;
+}
+.dashboard3:hover{
+    background: url("../images/kaggle.JPG") no-repeat;
+    background-size: 100% 100%;
+}
+.dashboard5{
+    background: url("../images/finance.JPG") no-repeat;
+}
+
+
+.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5{
+    display: flex;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dashboard7{
+    display: flex;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p{
+   background-color: rgba(0, 0, 0, 0.904);
+   height: auto;
+   text-align: justify;
+   width: 50%;
+   padding: 20px;
+   font-weight: bolder;
+
 }
 
 /** Extra LARGE device only **/
@@ -247,13 +399,8 @@ h2{
             display: block;
         }
        
-        .body-image{
-                   height: 410px;
-        }
-        .body-text{
-            margin-top: 0;
-        }
-        .body-author, .aboutpage, .portfolio-caro, .portiflio-caroweb, .portfolio-carobib{
+     
+      .grid-container, .body-author, .aboutpage, .portfolio-caro, .portiflio-caroweb, .portfolio-carobib{
             grid-template-columns: 100%;
             
         }
@@ -262,6 +409,15 @@ h2{
            margin-top: 30px;
            
 
+        }
+    
+        footer li{
+               display: block;
+               padding: 20px 0 0 0;
+            
+        }
+        .copyright{
+           font-size: 15px;
         }
     }
     /*EXEMPTION//////////////////////////////////////*/
@@ -282,10 +438,7 @@ h2{
             text-align: center;
            
         }
-        .body-author{
-            grid-template-rows: 400px 100%;             
-        }
-        
+      
     
     }
     
@@ -295,10 +448,7 @@ h2{
         #link-control{
             text-align: center;
         }
-        .body-text{
-            margin-top: -150px;
-            
-         }
+       
     
         
     }
@@ -308,6 +458,7 @@ h2{
         #link-control{
             text-align: center;
         }
+        
    
 
     }
