@@ -458,7 +458,7 @@ footer ul{
             font-size: 15px;
             font-weight: bolder;
         }
-        #datetime{
+        #datetime,  #clock{
             font-size: 15px;
         }
         .copyright{
@@ -469,11 +469,27 @@ footer ul{
     }
     
     /** SMALL IPHONES**********************/
-    @media (max-width: 316px){
+    @media (max-width: 378px){
         #link-control{
             text-align: center;
         }
-        
+        .copyright{
+            font-size: 10px;
+         }
+         .dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p{
+            width: 90%;
+            font-size: 10px;
+         }
+         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5{
+            height: 200px;
+        }
+        .firsthead, #demo{
+            font-size: 12px;
+            font-weight: bolder;
+        }
+        #datetime, #clock{
+            font-size: 12px;
+        }
    
 
     }
