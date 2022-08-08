@@ -147,7 +147,7 @@ h1{
     margin-top: 3em;
 }
 
-h2{
+.h2{
     margin: 20px auto 0 auto;
     text-align: center;
 }
@@ -288,10 +288,7 @@ footer ul{
 .dashboard1{
     background: url("../images/Dashboard.JPG") no-repeat;
 }
-.dashboard1:hover{
-    background: url("../images/Operator.JPG") no-repeat;
-    background-size: 100% 100%;
-}
+
 .dashboard2{
     background: url("../images/coviddashboard.JPG") no-repeat;
 }
@@ -306,12 +303,18 @@ footer ul{
     background: url("../images/finance.JPG") no-repeat;
 }
 
+.dashboard6{
+    background: url("../images/TradeDashboard.JPG") no-repeat;
+}
 
-.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5{
+
+
+
+.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5, .dashboard6{
     display: flex;
     background-size: 100% 100%;
     width: 100%;
-    height: 600px;
+    height: 800px;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
@@ -325,8 +328,8 @@ footer ul{
     align-items: center;
     margin-bottom: 20px;
 }
-.dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p{
-   background-color: rgba(0, 0, 0, 0.904);
+.dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p, .dashboard6 p{
+   background-color: rgba(0, 0, 0, 0.651);
    height: auto;
    text-align: justify;
    width: 50%;
@@ -334,6 +337,32 @@ footer ul{
    font-weight: bolder;
 
 }
+
+.contactmargin{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    width: 100%;
+}
+
+.contactmargin p{
+    margin-top: 25px;
+}
+.contactmargin h2{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.contactmargin a{
+    color: white;
+}
+
+.flex-container2{
+    display: flex;
+    margin-bottom: 20px;
+    
+    
+}
+
 
 /** Extra LARGE device only **/
 @media (min-width: 1200px ){
@@ -385,6 +414,13 @@ footer ul{
         #datetime{
             font-size: 15px;
         }
+        
+        .contactmargin{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 100%;
+        }
+       
     
     }
     
@@ -418,6 +454,12 @@ footer ul{
         }
         .copyright{
            font-size: 15px;
+        }
+
+        .contactmargin{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            width: 100%;
         }
     }
     /*EXEMPTION//////////////////////////////////////*/
@@ -464,6 +506,11 @@ footer ul{
         .copyright{
             font-size: 12px;
          }
+         .contactmargin{
+            display: grid;
+            grid-template-columns: 100%;
+            width: 100%;
+        }
        
         
     }
