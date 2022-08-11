@@ -295,12 +295,9 @@ footer ul{
 .dashboard3{
     background: url("../images/kaggledash.JPG") no-repeat;
 }
-.dashboard3:hover{
-    background: url("../images/kaggle.JPG") no-repeat;
-    background-size: 100% 100%;
-}
-.dashboard5{
-    background: url("../images/finance.JPG") no-repeat;
+
+.dashboard4{
+    background: url("../images/financial.jpg") no-repeat;
 }
 
 .dashboard6{
@@ -310,13 +307,10 @@ footer ul{
 
 
 
-.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5, .dashboard6{
-    display: flex;
+.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6{
     background-size: 100% 100%;
     width: 100%;
     height: 800px;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
 }
 .dashboard7{
@@ -328,14 +322,16 @@ footer ul{
     align-items: center;
     margin-bottom: 20px;
 }
-.dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p, .dashboard6 p{
-   background-color: rgba(0, 0, 0, 0.651);
+.dashboardp p{
    height: auto;
    text-align: justify;
-   width: 50%;
-   padding: 20px;
    font-weight: bolder;
 
+}
+.dashboardp h2{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 .contactmargin{
