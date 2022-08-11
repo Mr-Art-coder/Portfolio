@@ -476,11 +476,8 @@ footer ul{
             text-align: center;
            
         }
-        .dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p{
-            width: 80%;
-            font-size: 12px;
-         }
-         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5{
+        
+         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6{
             height: 300px;
         }
     
@@ -519,11 +516,8 @@ footer ul{
         .copyright{
             font-size: 10px;
          }
-         .dashboard1 p, .dashboard2 p, .dashboard3 p, .dashboard5 p{
-            width: 90%;
-            font-size: 10px;
-         }
-         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard5{
+         
+         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6{
             height: 200px;
         }
         .firsthead, #demo{
