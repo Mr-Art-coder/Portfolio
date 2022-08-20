@@ -22,7 +22,6 @@ body{
     color: rgb(0, 0, 0);
 }
 #link-control{
-   
     font-weight: bold;
     font-size: 30px;
     
@@ -41,7 +40,7 @@ hr{
     background-color: rgba(0, 0, 0, 0.842);
 }
 .nav-item{
-    padding-left: 40px;
+    padding-left: 10px;
     
 }
 #link-control a{
@@ -386,6 +385,7 @@ footer ul{
     grid-template-columns: 50% 50%;
     width: 100%;
     column-gap: 15px;
+    padding-right:10px;
     
 }
 .progress span{
