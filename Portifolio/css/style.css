@@ -374,10 +374,25 @@ footer ul{
 .flex-container2{
     display: flex;
     margin-bottom: 20px;
-    
-    
+}
+.progress{
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 2px;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    column-gap: 15px;
+    
+}
+.progress span{
+    font-weight: bold;
+    font-size: 15px;
+   
+}
 
 /** Extra LARGE device only **/
 @media (min-width: 1200px ){
@@ -534,6 +549,10 @@ footer ul{
             margin-bottom: 170px;
          
         }
+        .grid{
+            grid-template-columns: 100%;
+            
+        }
         
     }
     
@@ -562,4 +581,5 @@ footer ul{
             margin-bottom: 190px;
          
         }
+      
     }
