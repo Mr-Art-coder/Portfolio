@@ -160,6 +160,7 @@ h1{
     margin-top: 3em;
 }
 
+
 .h2{
     margin: 20px auto 0 auto;
     text-align: center;
@@ -310,9 +311,7 @@ footer ul{
     background: url("../images/kaggledash.JPG") no-repeat;
 }
 
-.dashboard4{
-    background: url("../images/financial.jpg") no-repeat;
-}
+
 
 .dashboard6{
     background: url("../images/TradeDashboard.JPG") no-repeat;
@@ -348,6 +347,9 @@ footer ul{
     text-align: center;
     font-style: italic;
     margin-top: 10px;
+}
+.dashboardy h2{
+    margin-top: 60px;
 }
 
 .contactmargin{
