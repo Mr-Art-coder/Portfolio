@@ -387,6 +387,17 @@ footer ul{
     box-shadow: 2px 2px 2px 2px;
 }
 
+.forms{
+    display: grid;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    
+   }
+ 
+   iframe{
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+   }
 .grid{
     display: grid;
     grid-template-columns: 50% 50%;
