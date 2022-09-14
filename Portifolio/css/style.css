@@ -320,11 +320,14 @@ footer ul{
 .dashboard9{
     background: url("../images/Tradition.png");
 }
+.dashboard5{
+    background: url("../images/pomerol.jpg")
+}
 
 
 
 
-.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6, .dashboard9{
+.dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6, .dashboard9, .dashboard5{
     background-size: 100% 100%;
     width: 100%;
     height: 800px;
@@ -529,7 +532,7 @@ footer ul{
            
         }
         
-         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6{
+         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6, .dashboard5, .dashboard9{
             height: 300px;
         }
 
@@ -583,7 +586,7 @@ footer ul{
             font-size: 10px;
          }
          
-         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6{
+         .dashboard1, .dashboard2, .dashboard3, .dashboard4, .dashboard6, .dashboard5, .dashboard9{
             height: 200px;
         }
         .firsthead, #demo{
